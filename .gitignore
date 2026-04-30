@@ -1,0 +1,9 @@
+# Build folders
+build/
+dist/
+
+# NetBeans files
+nbproject/private/
+
+# Logs
+*.log

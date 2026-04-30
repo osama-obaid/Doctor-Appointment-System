@@ -1,0 +1,93 @@
+
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        margin: 0;
+        padding: 10px;
+    }
+  
+    .main-content {
+        margin-left: 0px; /* المساحة المخصصة للقائمة الجانبية */
+        padding: 10px;
+        width: calc(100% ); /* العرض المتبقي بعد القائمة الجانبية */
+    }
+
+
+    .page-title {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #343a40;
+        font-weight: bold;
+    }
+
+    .alert {
+        background-color: #3ea1c5;
+        color: #155724;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tbl-full {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    .tbl-full th, .tbl-full td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+        font-size: 1.1em;
+    }
+
+    .tbl-full th {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .tbl-full tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .btn-primary, .btn-secondary, .btn-danger {
+        padding: 10px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        transition: background 0.3s;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    .btn-secondary {
+        background-color: #0f77d2;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+    .error {
+        color: red;
+        text-align: center;
+        font-weight: bold;
+    }
+
